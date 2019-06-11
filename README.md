@@ -14,6 +14,6 @@ In late 2018 we expect to release an AutoUpdate App that will super-streamline t
 
 7. Flash the sketch to the pedal. We usually use an independent installation of AVRdUde for this, using this command line: avrdude -c usbtiny -p m328p -V -U flash:w:Quaverato_2.3.6.ino.hex
 
-7a. If your pedal does not have presets saved you can flash the dafaults by placing the quaveratoeeprom.hex file in the same place as your compiled sketch and appending " -U eeprom:w:quaveratoeeprom.hex:i" to the command line
+7a. If your pedal does not have presets saved you can flash the dafaults by placing the quaveratoeeprom.hex file in the same place as your compiled sketch and appending " -U eeprom:w:quaveratoeeprom.hex:i" to the above command line
 
 That's it. Good luck!
