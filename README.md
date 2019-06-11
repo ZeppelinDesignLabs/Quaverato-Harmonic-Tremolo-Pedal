@@ -11,7 +11,9 @@ In late 2018 we expect to release an AutoUpdate App that will super-streamline t
 4. You should now be good to open the .ino file in your favorite editor and hack away.
 5. Theoretically, the sketch will compile successfully.
 6. Connect your Quaverato to your PC with a USBTiny Programmer. Not all USBTinys are alike. We offer the actual programmer we use in manufacturing our products as an accessory, available on our website. We guarantee that this programmer and its accompanying driver will successfully flash to our products. We cannot guarantee success with other programmers and drivers.
+
 7. Flash the sketch to the pedal. We usually use an independent installation of AVRdUde for this, using this command line: avrdude -c usbtiny -p m328p -V -U flash:w:Quaverato_2.3.6.ino.hex
+
 7a. If your pedal does not have presets saved you can flash the dafaults by placing the quaveratoeeprom.hex file in the same place as your compiled sketch and appending " -U eeprom:w:quaveratoeeprom.hex:i" to the command line
 
 That's it. Good luck!
