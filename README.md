@@ -7,7 +7,7 @@ In late 2018 we expect to release an AutoUpdate App that will super-streamline t
 
 1. From this repository, download the latest .ino sketch file and all of the wave table files. Place them all together in your sketchbook.
 2. Using Boards Manager in Arduino, install the MiniCore ATmega 328P board.
-3. Obtain the TASK SCHEDULER library from GitHub per directions in the .ino file itself.
+3. Obtain the TASK SCHEDULER library from GitHub per directions in the .ino file itself. You also need the MIDI library at https://github.com/FortySevenEffects/arduino_midi_library and the EEPROMex library at https://github.com/thijse/Arduino-EEPROMEx
 4. You should now be good to open the .ino file in your favorite editor and hack away.
 5. Theoretically, the sketch will compile successfully.
 6. Connect your Quaverato to your PC with a USBTiny Programmer. Not all USBTinys are alike. We offer the actual programmer we use in manufacturing our products as an accessory, available on our website. We guarantee that this programmer and its accompanying driver will successfully flash to our products. We cannot guarantee success with other programmers and drivers.
