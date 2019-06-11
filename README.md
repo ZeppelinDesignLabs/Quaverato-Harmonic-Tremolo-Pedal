@@ -6,7 +6,9 @@ The Quaverato, which shipped initially August 13, 2018, is loaded with software 
 In late 2018 we expect to release an AutoUpdate App that will super-streamline the process of putting new or revised software on all of our products. Until then, the general procedure consist of the following:
 
 1. From this repository, download the latest .ino sketch file and all of the wave table files. Place them all together in your sketchbook.
-2. Using Boards Manager in Arduino, install the MiniCore ATmega 328P board.
+2. Obtain the MiniCore board library from this address:
+https://github.com/MCUdude/MiniCore
+Use Boards Manager in Arduino to install the MiniCore ATmega 328P board.
 3. Obtain the TASK SCHEDULER library from GitHub per directions in the .ino file itself. You also need the MIDI library at https://github.com/FortySevenEffects/arduino_midi_library and the EEPROMex library at https://github.com/thijse/Arduino-EEPROMEx
 4. You should now be good to open the .ino file in your favorite editor and hack away.
 5. Theoretically, the sketch will compile successfully.
