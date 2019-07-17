@@ -1,9 +1,14 @@
 # Quaverato-Harmonic-Tremolo-Pedal
 Sketches and compiled software for the Quaverato Harmonic Tremolo pedal.
 
-The Quaverato, which shipped initially August 13, 2018, is loaded with software version 1.1.3. You can download the .ino file and edit it in Arduino to your heart's content, compile and flash it back onto your Quaverato. If you manage to trash your pedal, you can always download a fresh copy of the original .hex file and stick it back on.
+Release History:
+Initial Release, August 13, 2018: v1.1.3
 
-In late 2018 we expect to release an AutoUpdate App that will super-streamline the process of putting new or revised software on all of our products. Until then, the general procedure consist of the following:
+Major Update, December 11, 2018: v2.3.6. Added complete MIDI functionality. Significant improvement to function of RATE knob.
+
+If you need to re-flash the software to your Quaverato, please obtain the free Updater App for PC from our web store, www.zeppelindesignlabs.com. This simple app provides a convenient interface for obtaining and installing all official releases of our software, for all products. Follow the simple installation instructions on the web page, then consult the HELP file inside the app.
+
+To edit, compile and flash customized software is a little more involved. Please follow these instructions:
 
 1. From this repository, download the latest .ino sketch file and all of the wave table files. Place them all together in your sketchbook.
 2. Obtain the MiniCore board library from this address:
